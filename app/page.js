@@ -10,7 +10,7 @@ export default function Home() {
             <img src="/img/01.png" class="d-block w-100" alt="..."></img>
           </div>
           <div class="carousel-item">
-            <img src="/img/02.png" class="d-block w-100" alt="..."></img>
+            <img src="..." class="d-block w-100" alt="..."></img>
           </div>
           <div class="carousel-item">
             <img src="..." class="d-block w-100" alt="..."></img>
