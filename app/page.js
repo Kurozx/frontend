@@ -7,7 +7,7 @@ export default function Home() {
     <>
       <Navbar />
       <div class='container'>
-      <div id="carouselExample" class="carousel slide carousel-fade" data-bs-ride="carousel">
+      <div id="carouseExample" class="carousel slide carousel-fade" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
             <img src="img/01.png" class="d-block w-100 img-fluid " alt="..."></img>
