@@ -11,14 +11,14 @@ export default function Nav() {
         </div>
 
         <ul class="nav col-12 col-md-5 mb-2 justify-content-end mb-md-0">
-            <li><a href="/" class="nav-link px-3 link-secondary">Home</a></li>
+            <li><a href="./" class="nav-link px-3 link-secondary">Home</a></li>
             <li><Link href="/about" class="nav-link px-3 link-secondary">About</Link></li>
             <li><Link href="/service" class="nav-link px-3 link-secondary">Service</Link></li>
             <li><Link href="/contact" class="nav-link px-3 link-secondary">Contact</Link></li>
         </ul>
 
         <div class="col-md-0 text-end">
-            <button type="button" class="btn btn-outline-primary me-2">SignUp</button>
+            <Link href="/signup" class="btn btn-outline-primary me-2">SignUp</Link>
             <button type="button" class="btn btn-success">SignIn</button>
         </div>
         </header>
