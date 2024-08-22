@@ -1,6 +1,7 @@
 'use client';
 import { useState } from 'react';
-
+import Navbar from '/app/component/nav';
+import Footer from '/app/component/footer';
 
 export default function Page() {
 
@@ -15,7 +16,7 @@ export default function Page() {
     const res = await fetch('http://localhost:3000/api/users', {
       method: 'POST',
       headers: {
-        'Content-Type': 'application/json',
+        Accept : 'application/json',
       },
       body: JSON.stringify({ firstname, lastname, username, password }),
     });
@@ -26,6 +27,7 @@ export default function Page() {
 
   return (
     <>
+    <Navbar />
     <br /><br /><br />
     <div className="container">
     <div class="card">
@@ -71,6 +73,7 @@ export default function Page() {
 </div>
 
 </div>
+<Footer />
     </>
   );
 }

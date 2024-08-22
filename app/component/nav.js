@@ -11,10 +11,11 @@ export default function Nav() {
         </div>
 
         <ul class="nav col-12 col-md-5 mb-2 justify-content-end mb-md-0">
-            <li><a href="./" class="nav-link px-3 link-secondary">Home</a></li>
-            <li><Link href="/about" class="nav-link px-3 link-secondary">About</Link></li>
-            <li><Link href="/service" class="nav-link px-3 link-secondary">Service</Link></li>
-            <li><Link href="/contact" class="nav-link px-3 link-secondary">Contact</Link></li>
+            <li><a href="./" class="nav-link px-3 link-secondary">หน้าแรก</a></li>
+            <li><Link href="/about" class="nav-link px-3 link-secondary">เกี่ยวกับ</Link></li>
+            <li><Link href="/service" class="nav-link px-3 link-secondary">บริการ</Link></li>
+            <li><Link href="/users" class="nav-link px-3 link-secondary">จัดการสมาชิก</Link></li>
+            <li><Link href="/contact" class="nav-link px-3 link-secondary">ติดต่อ</Link></li>
         </ul>
 
         <div class="col-md-0 text-end">
