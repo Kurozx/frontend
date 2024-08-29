@@ -19,8 +19,8 @@ export default function Nav() {
         </ul>
 
         <div class="col-md-0 text-end">
-            <Link href="/signup" class="btn btn-outline-primary me-2">SignUp</Link>
-            <button type="button" class="btn btn-success">SignIn</button>
+            <Link href="/signup" class="btn btn-outline-primary me-2">Sign Up</Link>
+            <Link href="/signin" class="btn btn-success">Sign In</Link>
         </div>
         </header>
         </>

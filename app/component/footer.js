@@ -16,6 +16,16 @@ export default function footer() {
             </ul>
           </div>
 
+          <div className="col-6 col-md-2 mb-3">
+            <h5>เว็ปไซต์</h5>
+            <ul className="nav flex-column">
+              <li className="nav-item mb-2"><Link href="/" className="nav-link p-0 text-muted">หน้าแรก</Link></li>
+              <li className="nav-item mb-2"><Link href="/about" className="nav-link p-0 text-muted">เกี่ยวกับ</Link></li>
+              <li className="nav-item mb-2"><Link href="/service" className="nav-link p-0 text-muted">บริการ</Link></li>
+              <li className="nav-item mb-2"><Link href="/contact" className="nav-link p-0 text-muted">ติดต่อ</Link></li>
+            </ul>
+          </div>
+
           <div className="col-md-5 offset-md-1 mb-3">
             <form>
               <h5>ติดตามข่าวสาร</h5>
@@ -28,8 +38,6 @@ export default function footer() {
             </form>
           </div>
         </div>
-
-      
       </footer>
   );
 }

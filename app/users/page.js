@@ -8,6 +8,12 @@ import { useEffect, useState } from 'react';
 export default function Page() {
   const [items, setItems] = useState([]);
   useEffect(() => {
+    const token = localStorage.getItem('token');
+    if (!token){
+      router.push('/signin');
+      return;
+    }
+
     async function getUsers() {
       try {
         const res = await fetch('http://localhost:3000/api/users');
@@ -48,11 +54,11 @@ const handleDelete = async (id) => {
   <Navbar />
     <br /><br /><br /><br />
     <div className="container">
-      <div class="card">
-  <div class="card-header">
+      <div className="card">
+  <div className="card-header">
     Users List
   </div>
-  <div class="card-body">
+ <div className="card-body">
   <div className="row">
       <table className="table table-striped table-hover">
         <thead>
