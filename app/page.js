@@ -36,7 +36,7 @@ export default function Home() {
                 <div className="card-body">
                   <h5 className="card-title">Wooting 60he</h5>
                   <p className="card-text">The Wooting 60HE+ is a reality and available for (pre-)order thanks to the original 1298 founders.</p>
-                  <a href="#" className="btn btn-primary">Buy</a>
+                  <a href="#" className="btn btn-primary">สั่งซื้อ</a>
                 </div>
               </div>
             </div>
@@ -46,7 +46,7 @@ export default function Home() {
                 <div className="card-body">
                   <h5 className="card-title">Logitech G PRO X SUPERLIGHT 2</h5>
                   <p className="card-text">Fast and Precise Wireless Gaming Mouse: A pro gaming icon—now faster and more precise; it is designed in collaboration with the world’s leading esports pros and engineered to win</p>
-                  <a href="#" className="btn btn-primary">Buy</a>
+                  <a href="#" className="btn btn-primary">สั่งซื้อ</a>
                 </div>
               </div>
             </div>
@@ -56,7 +56,7 @@ export default function Home() {
                 <div className="card-body">
                   <h5 className="card-title">FANTECH HELIOS II PRO XD3 V3 (WHITE)</h5>
                   <p className="card-text">HELIOS II Pro is designed from massive feedback from the enthusiast and pro player community, in regard to specifications and the classic shape. A true fan-favorite shape perfect for pro players and gamers alike, due to its comfort and suitability for multiple grip types.</p>
-                  <a href="#" className="btn btn-primary">Buy</a>
+                  <a href="#" className="btn btn-primary">สั่งซื้อ</a>
                 </div>
               </div>
             </div>
